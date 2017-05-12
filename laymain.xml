@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--><!--  LinearLayout  --><!--
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--  Vertical linear layout  -->
+    <!--
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <!--  Horizontal linear layout  -->
+        <!--
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <!--  TextView -->
+            <!--
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="North-South Light"
+                android:textStyle="bold" />
+
+            <!--  ImageView -->
+            <!--
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            -->
+
+            <ImageView
+                android:id="@+id/ib1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top"
+                android:clickable="false"
+                android:paddingBottom="2dp"
+                android:src="@mipmap/trafficlight" />
+
+
+            <!--  ImageView -->
+            <!--
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            -->
+
+
+            <ImageView
+                android:id="@+id/ib2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:clickable="false"
+                android:paddingBottom="2dp"
+                android:src="@mipmap/trafficlight" />
+
+
+            <!--  ImageView -->
+            <!--
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            -->
+
+            <ImageView
+                android:id="@+id/ib3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:clickable="false"
+                android:paddingBottom="2dp"
+                android:src="@mipmap/trafficlight" />
+
+
+        </LinearLayout>
+
+        <!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+        <!--  Vertical linear layout  -->
+        <!--
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <!--TextView-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="East-West Light"
+                android:textStyle="bold" />
+
+
+            <!--  ImageView -->
+            <!--
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            -->
+            <ImageView
+                android:id="@+id/ib4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top"
+                android:clickable="false"
+                android:paddingBottom="2dp"
+                android:src="@mipmap/trafficlight" />
+
+
+            <!--  ImageView -->
+            <!--
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            -->
+
+            <ImageView
+                android:id="@+id/ib5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:clickable="false"
+                android:paddingBottom="2dp"
+                android:src="@mipmap/trafficlight" />
+
+            <!--  ImageView -->
+            <!--
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            -->
+            <ImageView
+                android:id="@+id/ib6"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:clickable="false"
+                android:paddingBottom="2dp"
+                android:src="@mipmap/trafficlight" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--  Vertical linear layout  -->
+    <!--
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North-South Light Length"
+            android:textStyle="bold" />
+
+
+        <!--  Horizontal linear layout  -->
+        <!--
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <!--TextView-->
+
+            <TextView
+                android:id="@+id/seekbar1progress"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="5"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <!--SeekBar-->
+            <SeekBar
+                android:id="@+id/seekbar1"
+                android:layout_width="300dp"
+                android:layout_height="10dp"
+                android:progress="5" />
+
+
+        </LinearLayout>
+
+
+        <!--TextView-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="East-West Light Length"
+            android:textStyle="bold" />
+
+
+        <!--  Horizontal linear layout  -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--TextView-->
+
+            <TextView
+                android:id="@+id/seekbar2progress"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="5"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!--SeekBar-->
+            <SeekBar
+                android:id="@+id/seekbar2"
+                android:layout_width="300dp"
+                android:layout_height="10dp"
+                android:progress="5" />
+        </LinearLayout>
+
+        <!--TextView-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="1dp"
+            android:paddingLeft="25dp"
+            android:text="Vehicles waiting at lights"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <!-- Vertical linear layout  -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+
+        <!--  Horizontal linear layout  -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp">
+
+            <!--TextView-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Heading north:"
+                android:textStyle="bold" />
+
+            <!--EditText-->
+            <EditText
+                android:id="@+id/headingnorth"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:text="11"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--TextView-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Heading South:"
+                android:textStyle="bold" />
+
+            <!--EditText-->
+            <EditText
+                android:id="@+id/headingsouth"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:text="12"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <!--  Vertical linear layout  -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <!--TextView-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Heading East:"
+                android:textStyle="bold" />
+
+            <!--EditText-->
+            <EditText
+                android:id="@+id/headingeast"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:text="14"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--TextView-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Heading West:"
+                android:textStyle="bold" />
+
+            <!--EditText-->
+            <EditText
+                android:id="@+id/headingwest"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:text="15"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--  Horizontal linear layout  -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <!--TextView-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="2dp"
+            android:text="Clock:"
+            android:textStyle="bold" />
+
+        <!--EditText-->
+        <EditText
+            android:id="@+id/clock"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:paddingRight="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!--TextView-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="2dp"
+            android:text="Time Left:"
+            android:textStyle="bold" />
+
+        <!--EditText-->
+        <EditText
+            android:id="@+id/timeLeft"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:paddingRight="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
